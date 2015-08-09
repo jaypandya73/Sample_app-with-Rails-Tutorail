@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  follower: sheldon
+  followed: leonard
+
+two:
+  follower: sheldon
+  followed: penny
+
+three:
+  follower: leonard
+  followed: sheldon
+
+four:
+  follower: howard
+  followed: sheldon

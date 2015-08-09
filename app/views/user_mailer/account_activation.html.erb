@@ -1,0 +1,6 @@
+<h2>Hi <%= @user.name %></h2>
+<h4>Welcome to Application! Click below link to activate your account.</h4>
+<%= link_to "Activate", edit_account_activation_url(@user.activation_token, email: @user.email) %>
+
+
+
